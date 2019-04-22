@@ -1,0 +1,30 @@
+{
+  "name": "babel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "babel src --out-dir dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayindfw/babel-react.git"
+  },
+  "author": "ajayindfw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayindfw/babel-react/issues"
+  },
+  "homepage": "https://github.com/ajayindfw/babel-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
